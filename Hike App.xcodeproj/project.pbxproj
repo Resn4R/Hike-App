@@ -57,9 +57,9 @@
 		4FD6AE592B2A0014004DD8CB /* Hike App */ = {
 			isa = PBXGroup;
 			children = (
-				4FD6AE6D2B2A039C004DD8CB /* Utility */,
 				4FD6AE5A2B2A0014004DD8CB /* Hike_AppApp.swift */,
 				4FD6AE5C2B2A0014004DD8CB /* ContentView.swift */,
+				4FD6AE6D2B2A039C004DD8CB /* Utility */,
 				4FD6AE6A2B2A0206004DD8CB /* Component */,
 				4FD6AE5E2B2A0017004DD8CB /* Assets.xcassets */,
 				4FD6AE602B2A0017004DD8CB /* Preview Content */,

@@ -11,18 +11,18 @@ struct CustomBackgroundView: View {
     var body: some View {
         ZStack {
             //MARK: - 3. DEPTH
-            Color("ColorGreenDark")
+            Color.customGreenDark
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .offset(y: 12)
             //MARK: - 2. LIGHT
-            Color("ColorGreenLight")
+            Color.colorGreenLight
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .offset(y: 3)
                 .opacity(0.85)
             //MARK: - 1. SURFACE
             LinearGradient(colors: [
-                Color("ColorGreenLight"),
-                Color("ColorGreenMedium")
+                Color.colorGreenLight,
+                Color.customGreenMedium
             ],
                            startPoint: .top,
                            endPoint: .bottom)
