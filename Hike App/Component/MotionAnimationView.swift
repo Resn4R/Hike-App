@@ -54,13 +54,16 @@ struct MotionAnimationView: View {
         }
         .frame(width: 256)
         .mask(Circle())
+        .drawingGroup()
     }
         
 }
 
 #Preview {
     ZStack{
-        Color.teal.ignoresSafeArea()
         MotionAnimationView()
+            .background(
+                Circle().fill(.teal)
+            )
     }
 }

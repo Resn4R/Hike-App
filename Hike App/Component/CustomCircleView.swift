@@ -25,7 +25,7 @@ struct CustomCircleView: View {
                 }
                 MotionAnimationView()
         }
-            .frame(width: 256)
+            .frame(width: 256, height: 256)
     }
 }
 
