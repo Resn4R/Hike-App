@@ -10,6 +10,7 @@ import SwiftUI
 struct CardView: View {
     
     @State var imageIndex = 1
+    @State private var isShowingSheet = false
     
     func randomImage(_ index: Int) -> Image {
         Image("image-\(imageIndex)")
@@ -33,10 +34,14 @@ struct CardView: View {
                                 )
                         Spacer()
                         Button{
-                            //action: show a sheet
-                            print("headeer button pressed")
+                            isShowingSheet.toggle()
                         } label: {
                             CustomButtonView()
+                        }
+                        .sheet(isPresented: $isShowingSheet) {
+                            SettingsView()
+                                .presentationDragIndicator(.visible)
+                                .presentationDetents([.medium, .large])
                         }
                     }
                     Text("Fun and enjoyable activity for family and friends.")

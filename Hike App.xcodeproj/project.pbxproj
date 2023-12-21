@@ -18,6 +18,7 @@
 		4FD6AE6F2B2A03B3004DD8CB /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6AE6E2B2A03B3004DD8CB /* ColorExtension.swift */; };
 		4FFDA0CE2B34974200900F8A /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDA0CD2B34974200900F8A /* CustomCircleView.swift */; };
 		4FFDA0D02B349E3800900F8A /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDA0CF2B349E3800900F8A /* MotionAnimationView.swift */; };
+		4FFDA0D32B34ADD400900F8A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDA0D22B34ADD400900F8A /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		4FD6AE6E2B2A03B3004DD8CB /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		4FFDA0CD2B34974200900F8A /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		4FFDA0CF2B349E3800900F8A /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		4FFDA0D22B34ADD400900F8A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				4FD6AE5A2B2A0014004DD8CB /* Hike_AppApp.swift */,
-				4FD6AE5C2B2A0014004DD8CB /* ContentView.swift */,
+				4FFDA0D12B34ADBD00900F8A /* Screen */,
 				4FD6AE6D2B2A039C004DD8CB /* Utility */,
 				4FD6AE6A2B2A0206004DD8CB /* Component */,
 				4FD6AE5E2B2A0017004DD8CB /* Assets.xcassets */,
@@ -102,6 +104,15 @@
 				4F0EE2772B30A2A7000BC84E /* ButtonStyle.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		4FFDA0D12B34ADBD00900F8A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				4FD6AE5C2B2A0014004DD8CB /* ContentView.swift */,
+				4FFDA0D22B34ADD400900F8A /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 				4FD6AE692B2A00EF004DD8CB /* CardView.swift in Sources */,
 				4FD6AE5B2B2A0014004DD8CB /* Hike_AppApp.swift in Sources */,
 				4FCCAB1A2B2CA133002C549F /* CustomButtonView.swift in Sources */,
+				4FFDA0D32B34ADD400900F8A /* SettingsView.swift in Sources */,
 				4FD6AE6C2B2A021E004DD8CB /* CustomBackgroundView.swift in Sources */,
 				4FFDA0D02B349E3800900F8A /* MotionAnimationView.swift in Sources */,
 				4FD6AE6F2B2A03B3004DD8CB /* ColorExtension.swift in Sources */,
