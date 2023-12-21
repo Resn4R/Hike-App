@@ -58,11 +58,14 @@ struct CardView: View {
                             endPoint: .bottomTrailing)
                         )
                         .frame(height: 256)
-                    
-                    randomImage(imageIndex)
-                        .resizable()
-                        .scaledToFit()
-                        .animation(.easeOut(duration: 1), value: imageIndex)
+                    ZStack {
+                        CustomCircleView()
+                        
+                        randomImage(imageIndex)
+                            .resizable()
+                            .scaledToFit()
+                            .animation(.easeOut(duration: 1), value: imageIndex)
+                    }
                 }
                 // MARK: - FOOTER
                 Button{
