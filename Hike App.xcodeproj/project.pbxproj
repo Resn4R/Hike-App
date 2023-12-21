@@ -17,6 +17,7 @@
 		4FD6AE6C2B2A021E004DD8CB /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6AE6B2B2A021E004DD8CB /* CustomBackgroundView.swift */; };
 		4FD6AE6F2B2A03B3004DD8CB /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6AE6E2B2A03B3004DD8CB /* ColorExtension.swift */; };
 		4FFDA0CE2B34974200900F8A /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDA0CD2B34974200900F8A /* CustomCircleView.swift */; };
+		4FFDA0D02B349E3800900F8A /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDA0CF2B349E3800900F8A /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		4FD6AE6B2B2A021E004DD8CB /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		4FD6AE6E2B2A03B3004DD8CB /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		4FFDA0CD2B34974200900F8A /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		4FFDA0CF2B349E3800900F8A /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				4FD6AE682B2A00EF004DD8CB /* CardView.swift */,
+				4FFDA0CF2B349E3800900F8A /* MotionAnimationView.swift */,
 				4FFDA0CD2B34974200900F8A /* CustomCircleView.swift */,
 				4FCCAB192B2CA133002C549F /* CustomButtonView.swift */,
 				4FD6AE6B2B2A021E004DD8CB /* CustomBackgroundView.swift */,
@@ -177,6 +180,7 @@
 				4FD6AE5B2B2A0014004DD8CB /* Hike_AppApp.swift in Sources */,
 				4FCCAB1A2B2CA133002C549F /* CustomButtonView.swift in Sources */,
 				4FD6AE6C2B2A021E004DD8CB /* CustomBackgroundView.swift in Sources */,
+				4FFDA0D02B349E3800900F8A /* MotionAnimationView.swift in Sources */,
 				4FD6AE6F2B2A03B3004DD8CB /* ColorExtension.swift in Sources */,
 				4F0EE2782B30A2A7000BC84E /* ButtonStyle.swift in Sources */,
 			);

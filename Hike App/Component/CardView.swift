@@ -27,7 +27,7 @@ struct CardView: View {
                             .fontWeight(.black)
                             .font(.system(size: 52))
                             .foregroundStyle(
-                                LinearGradient(colors: [.customGrayLight, .customGreenMedium],
+                                LinearGradient(colors: [.customGrayLight, .customGrayMedium],
                                                startPoint: .top,
                                                endPoint: .bottom)
                                 )

@@ -10,18 +10,21 @@ import SwiftUI
 struct CustomCircleView: View {
     @State private var isAnimated = false
     var body: some View {
-        Circle()
-            .fill(
-                LinearGradient(colors: [.customIndigoMedium, .customSalmonLight],
-                               startPoint: isAnimated ? .topLeading : .bottomLeading,
-                               endPoint: isAnimated ? .bottomTrailing : .topTrailing
-                              )
-            )
-            .onAppear{
-                withAnimation(.linear(duration: 3.0).repeatForever(autoreverses: true)) {
-                    isAnimated.toggle()
+        ZStack {
+            Circle()
+                .fill(
+                    LinearGradient(colors: [.customIndigoMedium, .customSalmonLight],
+                                   startPoint: isAnimated ? .topLeading : .bottomLeading,
+                                   endPoint: isAnimated ? .bottomTrailing : .topTrailing
+                                  )
+                )
+                .onAppear{
+                    withAnimation(.linear(duration: 3.0).repeatForever(autoreverses: true)) {
+                        isAnimated.toggle()
+                    }
                 }
-            }
+                MotionAnimationView()
+        }
             .frame(width: 256)
     }
 }
