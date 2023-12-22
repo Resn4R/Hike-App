@@ -20,6 +20,7 @@
 		4FFDA0D02B349E3800900F8A /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDA0CF2B349E3800900F8A /* MotionAnimationView.swift */; };
 		4FFDA0D32B34ADD400900F8A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDA0D22B34ADD400900F8A /* SettingsView.swift */; };
 		4FFDA0D52B34B81600900F8A /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDA0D42B34B81600900F8A /* CustomListRowView.swift */; };
+		4FFDA0D72B35DD0400900F8A /* AlternativeIconButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDA0D62B35DD0400900F8A /* AlternativeIconButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		4FFDA0CF2B349E3800900F8A /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		4FFDA0D22B34ADD400900F8A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		4FFDA0D42B34B81600900F8A /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
+		4FFDA0D62B35DD0400900F8A /* AlternativeIconButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeIconButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		4FD6AE6A2B2A0206004DD8CB /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				4FFDA0D62B35DD0400900F8A /* AlternativeIconButtonView.swift */,
 				4FD6AE682B2A00EF004DD8CB /* CardView.swift */,
 				4FFDA0CF2B349E3800900F8A /* MotionAnimationView.swift */,
 				4FFDA0CD2B34974200900F8A /* CustomCircleView.swift */,
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FD6AE5D2B2A0014004DD8CB /* ContentView.swift in Sources */,
+				4FFDA0D72B35DD0400900F8A /* AlternativeIconButtonView.swift in Sources */,
 				4FFDA0CE2B34974200900F8A /* CustomCircleView.swift in Sources */,
 				4FFDA0D52B34B81600900F8A /* CustomListRowView.swift in Sources */,
 				4FD6AE692B2A00EF004DD8CB /* CardView.swift in Sources */,
@@ -327,8 +331,10 @@
 		4FD6AE662B2A0017004DD8CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-MagnifyingGlass AppIcon-Mushroom AppIcon-Map AppIcon-Camera AppIcon-Backpack AppIcon-Campfire";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike App/Preview Content\"";
@@ -356,8 +362,10 @@
 		4FD6AE672B2A0017004DD8CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-MagnifyingGlass AppIcon-Mushroom AppIcon-Map AppIcon-Camera AppIcon-Backpack AppIcon-Campfire";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike App/Preview Content\"";

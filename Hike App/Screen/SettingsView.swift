@@ -8,6 +8,15 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @State private var IconList = [
+        "AppIcon-Backpack",
+        "AppIcon-Camera",
+        "AppIcon-Campfire",
+        "AppIcon-MagnifyingGlass",
+        "AppIcon-Map",
+        "AppIcon-Mushroom"
+    ]
+    
     var body: some View {
         List {
             //MARK: - SECTION HEADER
@@ -53,6 +62,25 @@ struct SettingsView: View {
             } //: HEADER
             .listRowSeparator(.hidden)
             //MARK: - SECTION ICONS
+            Section(header: Text("Alternate Icons")) {
+                    ScrollView(.horizontal) {
+                        LazyHGrid(rows: [GridItem(.fixed(6))]) {
+                            ForEach(IconList, id: \.self) { icon in
+                                AlternativeIconButtonView(icon: icon)
+                                    .padding([.horizontal, .vertical], 5)
+                            }
+                        }
+                    }
+                    .padding(.vertical, 3)
+                
+                Text("Choose your favourite app icon from the collection above.")
+                    .frame(minWidth: 0, maxWidth: .infinity)
+                    .multilineTextAlignment(.center)
+                    .foregroundStyle(.secondary)
+                    .font(.footnote)
+                    .padding(.bottom, 5)
+            }
+            .listRowSeparator(.hidden)
             
             //MARK: - SECTION ABOUT
             Section {
