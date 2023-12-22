@@ -58,12 +58,20 @@ struct SettingsView: View {
             Section {
                 
                 CustomListRowView(rowLabel:"Application", rowIcon: "apps.iphone", rowContent: "Hike", rowTintColor: .blue)
+                
                 CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "iOS, iPadOS", rowTintColor: .red)
+                
                 CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "Swift", rowTintColor: .orange)
+                
                 CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                
                 CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Vito Borghi", rowTintColor: .mint)
+                
                 CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Robert Petras", rowTintColor: .pink)
-                CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowContent: "linkedin.com/vito-borghi", rowTintColor: .indigo)
+                
+                CustomListRowView(rowLabel: "Linkedin", rowIcon: "globe", rowTintColor: .indigo, rowLinkLabel: "Vito Borghi", rowLinkDestination: "https://www.linkedin.com/in/vito-borghi/")
+                
+                CustomListRowView(rowLabel: "GitHub", rowIcon: "book.pages", rowTintColor: .gray, rowLinkLabel: "Resn4R", rowLinkDestination: "https://github.com/Resn4R")
                 
             } header: {
                 Text("About the app")
